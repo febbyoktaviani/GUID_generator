@@ -20,9 +20,9 @@ import uuid
 import re
 
 head1 = [
-    'const uint8_t arm_uc_vendor_id[16] = {',
-    'const uint8_t arm_uc_class_id[16] = {',
-    'const uint8_t arm_uc_device_id[16] = {'
+    'const uint8_t arm_uc_vendor_id[] = {',
+    'const uint8_t arm_uc_class_id[] = {',
+    'const uint8_t arm_uc_device_id[] = {'
 ]
 
 head2 = [
